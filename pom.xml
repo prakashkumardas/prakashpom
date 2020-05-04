@@ -12,8 +12,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
+		
 		<spring-cloud.version>Hoxton.SR1</spring-cloud.version>
 		<springfox-swagger2>2.9.2</springfox-swagger2>
 	</properties>
@@ -39,11 +38,7 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<!-- Swagger documentation -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-			<version>${springfox-swagger2}</version>
-		</dependency>
+		
 		
 		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 		<dependency>
