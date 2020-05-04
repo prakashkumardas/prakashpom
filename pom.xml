@@ -24,23 +24,9 @@
 		
 		
 		
-		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-		</dependency>
-		<!-- Eureka for service registration -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-		<!-- Swagger documentation -->
 		
 		
-		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
@@ -92,7 +78,7 @@
 			<plugin>
 	          <groupId>org.apache.maven.plugins</groupId>
 	          <artifactId>maven-checkstyle-plugin</artifactId>
-	          <version>${version.checkstyle.plugin}</version>
+	         
 	          <executions>
 	            <execution>
 	              <id>checkstyle</id>
@@ -102,18 +88,7 @@
 	            </execution>
 	          </executions>
 	          
-	          <dependencies>
-	            <dependency>
-	              <groupId>prakash.co.com</groupId>
-	              <artifactId>common-resources</artifactId>
-	              <version>${common.resources.version}</version>
-	            </dependency>
-	            <dependency>
-	              <groupId>com.puppycrawl.tools</groupId>
-	              <artifactId>checkstyle</artifactId>
-	              <version>${version.checkstyle}</version>
-	            </dependency>
-	          </dependencies>
+	          
 	        </plugin>
 		</plugins>
 
